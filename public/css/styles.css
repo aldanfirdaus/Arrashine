@@ -1,0 +1,427 @@
+.hero-section {
+    /* Mengganti URL Unsplash dengan path lokal menggunakan {{ asset() }} */
+    background: url('../assets/images/hero/bg-hero.png') no-repeat center center;
+    background-size: cover;
+    height: 90vh;
+}
+
+/* Mengubah font menu navigasi menjadi Bellefair */
+.navbar-nav .nav-item {
+    font-family: 'Bellefair', serif;
+    font-size: 0.9rem;
+    /* Opsional: memperbesar sedikit ukuran font agar lebih jelas */
+    letter-spacing: 0.5px;
+}
+.navbar-toggler {
+    border: none;
+    box-shadow: none !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.logo-scroll {
+    transform: translate(22px, 10px);
+}
+
+.img-favorite {
+    /* Menentukan lebar gambar agar proporsional */
+    width: 50px;
+    /* Sesuaikan lebar ini dengan ukuran asli gambar Anda */
+    height: auto;
+    /* Membiarkan tinggi menyesuaikan agar tidak distorsi */
+
+    /* Memastikan z-index tetap tinggi agar tidak tertutup konten lain */
+    z-index: 6;
+}
+
+/* hero section */
+.product-wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+/* Mengatur ukuran botol tengah agar menonjol */
+.product-center {
+    max-height: 450px;
+    /* Atur batas tinggi maksimal botol tengah */
+    width: auto;
+    /* Membuat efek bayangan lantai halus mengikuti lekukan botol PNG */
+    filter: drop-shadow(0px 20px 15px rgba(0, 0, 0, 0.2));
+}
+
+/* Mengatur ukuran botol kiri dan kanan agar lebih kecil */
+.product-side {
+    max-height: 350px;
+    /* Lebih pendek dari botol tengah */
+    width: auto;
+    filter: drop-shadow(0px 15px 12px rgba(0, 0, 0, 0.15));
+    margin-top: 14%;
+}
+
+.product-left {
+    margin-right: -50%;
+    /* Sifatnya negatif. Sesuaikan persentase ini sampai pas */
+}
+
+/* KHUSUS BOTOL KANAN: Tarik ke kiri menuju tengah */
+.product-right {
+    margin-left: -50%;
+    /* Sifatnya negatif. Sesuaikan persentase ini sampai pas */
+}
+
+/* Marquee */
+/* Garis memenuhi seluruh layar */
+.marquee-section {
+    width: 100%;
+    border-top: 1px solid #3B3F53;
+    border-bottom: 1px solid #3B3F53;
+    background: #fff;
+}
+
+/* Hanya area teks yang dibatasi container */
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 2rem 0;
+}
+
+/* Animasi */
+.marquee-content {
+    display: inline-flex;
+    width: max-content;
+    animation: scroll-left 20s linear infinite;
+}
+
+.marquee-item {
+    flex-shrink: 0;
+    padding: 0 3rem;
+    font-family: 'Bellefair', serif;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    color: #1A1C26;
+}
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* Product Slider */
+.product-card {
+
+    background: #EFEFEF;
+
+    border: 1px solid #eee;
+
+    transition: .3s;
+
+}
+
+/* Header Card */
+
+.product-title {
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-family: 'Bellefair', serif;
+    font-size: 1.3rem;
+}
+
+/* Warna berdasarkan gender */
+
+.bg-man {
+    background: #39462b;
+    color: #fff;
+}
+
+.bg-woman {
+    background: #d86c93;
+    color: #fff;
+}
+
+.bg-unisex {
+    background: #d9a70d;
+    color: #fff;
+}
+
+.gender-btn {
+
+    font-family: 'Bellefair', serif;
+    font-size: 1rem;
+}
+
+/* Gambar Produk */
+
+.product-card img {
+    width: 290px;
+    height: 330px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    transition: 0.1s ease;
+}
+
+.img-wrapper {
+    overflow: hidden;
+}
+
+.product-card{
+    overflow: hidden;
+    justify-content: center;
+}
+
+.product-card img:hover {
+
+    transform: scale(0.9);
+
+}
+
+.more-info {
+    color: #333;
+    text-decoration: none;
+    font-family: 'Bellefair', serif;
+    font-size: 18px;
+}
+
+.more-info:hover {
+    color: #39462b;
+}
+
+@media (max-width: 768px) {
+
+    .product-card img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .product-title {
+        font-size: 0.5rem;
+    }
+
+    .more-info {
+        font-size: 0.5rem;
+    }
+
+    .img-wrapper {
+        display: flex;
+        justify-content: center;
+        /* Menengahkan gambar secara horizontal */
+        align-items: center;
+        /* Menengahkan gambar secara vertikal */
+        width: 100%;
+        /* Mengikuti lebar product-card */
+        height: auto;
+        /* Sesuaikan tinggi area gambar yang kamu mau */
+        overflow: hidden;
+        /* Kunci utama: Memotong bagian gambar yang keluar kotak */
+        padding: 0px;
+        /* Opsional: memberi jarak agar gambar tidak menempel ke pinggir */
+    }
+    .logo-scroll {
+        transform: translate(21px, 5px);
+    }
+}
+
+@media (max-width: 992px) {
+
+    .product-card img {
+        width: 150px;
+        height: 160px;
+    }
+
+    .product-title {
+        font-size: 0.5rem;
+    }
+
+    .more-info {
+        font-size: 0.5rem;
+    }
+}
+
+/* Swiper */
+
+
+/* Button logout */
+.logout-btn {
+    width: 100%;
+    border: none;
+    background: transparent;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* Article Section */
+.article-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.pagination{
+    gap:12px;
+}
+
+.page-number{
+    width:42px;
+    height:42px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border:1px solid #1A1C26;
+    border-radius:50%;
+
+    background:#fff;
+    color:#1A1C26;
+
+    transition:.3s;
+}
+
+.page-item.active .page-number{
+    background:#1A1C26;
+    border-color:#1A1C26;
+    color:#fff;
+}
+
+.page-number:hover{
+    background:#1A1C26;
+    color:#fff;
+}
+
+.page-arrow{
+    border:none !important;
+    background:transparent !important;
+
+    width:auto !important;
+    height:auto !important;
+
+    padding:0 8px;
+
+    color:#1A1C26;
+    font-size:20px;
+}
+
+.page-arrow:hover{
+    background:transparent !important;
+    color:#555;
+}
+
+.page-link:focus{
+    box-shadow:none;
+}
+
+/* REVIEW RUNNING TEXT */
+.review-slider{
+    overflow:hidden;
+    width:100%;
+    position:relative;
+    padding: 10px;
+}
+
+.review-track{
+    display:flex;
+    gap:25px;
+    width:max-content;
+
+    animation:scrollReview 15s linear infinite;
+}
+
+.review-slider:hover .review-track{
+    animation-play-state:running;
+}
+
+.review-card{
+    width:280px;
+    /* flex-shrink:0; */
+
+    background:#FFF;
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    padding:12px;
+
+    text-align:center;
+}
+
+.review-card img{
+    width:100%;
+    height:240px;
+
+    object-fit:cover;
+
+
+    margin-bottom:15px;
+}
+
+.review-card p{
+    margin:15px 0;
+    color:#555;
+}
+
+.review-card span{
+    font-weight:600;
+}
+
+.rating{
+    font-size:20px;
+}
+
+@media (max-width: 768px) {
+    .review-slider{
+        overflow:hidden;
+        width:100%;
+        position:relative;
+        padding: 10px;
+    }
+    
+    .review-track{
+        display:flex;
+        gap:25px;
+        width:max-content;
+    
+        animation:scrollReview 15s linear infinite;
+    }
+    
+    .review-slider:hover .review-track{
+        animation-play-state:running;
+    }
+    
+    .review-card{
+        width:180px;
+    }
+    
+    .review-card img{
+        height:150px;
+    }
+    
+    .review-card p{
+        margin:12px 0;
+        font-family: Lato;;
+        color:#555;
+    }
+    
+    .rating{
+        font-size:15px;
+    }
+}
+
+@keyframes scrollReview{
+    from{
+        transform:translateX(0);
+    }
+
+    to{
+        transform:translateX(-50%);
+    }
+
+}
