@@ -1,5 +1,4 @@
-<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/a059caaf-9c61-4402-b265-b38a8dd13f16" />
-<img width="1338" height="636" alt="image" src="https://github.com/user-attachments/assets/5e440f8c-bcd6-4d5b-8aea-5e55aba575ae" />
+<img width="991" height="3566" alt="127 0 0 1_8000_" src="https://github.com/user-attachments/assets/a656d169-8635-4392-bb69-ac0b4edb5c34" />
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
