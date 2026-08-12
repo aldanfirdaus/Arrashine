@@ -1,78 +1,32 @@
-## Home
+## Homepage
 <p align="center"><img width="1240" height="3463" alt="Screenshot_12-8-2026_7524_127 0 0 1" src="https://github.com/user-attachments/assets/ed11b2c6-dee9-45dc-b819-eee0311f254d" /></p>
 
-## Profile
+## Profile Page
 <img width="1006" height="636" alt="127 0 0 1_8000_profile (1)" src="https://github.com/user-attachments/assets/0d034313-26fc-4474-b62e-a8bd78c9ddfc" />
 
-## Product
+## Product Page
 <img width="991" height="1752" alt="127 0 0 1_8000_product" src="https://github.com/user-attachments/assets/55ec004d-94b6-4164-ab8c-bd963493ec0a" />
 
+## Profile Page
+<img width="991" height="2187" alt="127 0 0 1_8000_article" src="https://github.com/user-attachments/assets/fa288fc0-c534-4526-af47-ab2021c77cbf" />
 
+## Contact Page
+<img width="991" height="1348" alt="127 0 0 1_8000_contact" src="https://github.com/user-attachments/assets/d83def47-b511-4d44-b95f-0406331dbce4" />
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## Admin Product
+<img width="1358" height="636" alt="admin-product" src="https://github.com/user-attachments/assets/056d344c-fa28-45ba-8536-7a417e7faf41" />
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Admin Create Product
+<img width="1240" height="1006" alt="Screenshot_12-8-2026_72836_127 0 0 1" src="https://github.com/user-attachments/assets/88ae28e5-1fa9-497c-99b7-c77f3bf715d9" />
 
+## Admin Article
+<img width="1358" height="636" alt="screenshot-1786495250402" src="https://github.com/user-attachments/assets/3b83abce-cc41-4a80-a7c6-5ce0bded4db1" />
 
-## About Laravel
+## Admin Create Article
+<img width="1240" height="770" alt="Screenshot_12-8-2026_7454_127 0 0 1" src="https://github.com/user-attachments/assets/55ece2f4-5d22-4417-b593-05aa0948f767" />
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Admin Product Review
+<img width="1358" height="636" alt="screenshot-1786495874223" src="https://github.com/user-attachments/assets/89bdc088-9d10-479a-a641-e90d41474d2b" />
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Admin Create Product Review
+<img width="1240" height="931" alt="Screenshot_12-8-2026_75143_127 0 0 1" src="https://github.com/user-attachments/assets/3b385177-2334-4a7f-95f7-a0188bd40b92" />
